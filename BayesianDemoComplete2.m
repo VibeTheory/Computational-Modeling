@@ -5,7 +5,7 @@
 % Data observations (number of heads and tails seen in a single coin-flipping session, described by Nh and Nt), 
 % priors (number of times you've seen the coin land heads and tails in the past, described by Vh and Vt), and
 % stepsize (increments by which we define our continuous hypothesis space) can all be adjusted to see how these 
-% factors are reflected in the "reasoning" of the model.
+% factors are reflected in the "reasoning" of the model's posterior judgements.
 
 clear all; clc; close all;
 
