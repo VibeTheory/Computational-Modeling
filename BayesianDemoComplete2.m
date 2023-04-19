@@ -1,7 +1,11 @@
-% A simple Bayesian model describing belief updating about the fairness of a coin in a game of heads or tails
+% A simple Bayesian model describing belief updating about the fairness of a coin in a game of heads or tails.
+% Considers all possible hypotheses, plots likelihood, prior, and posterior probability distributions, and finds
+% the maximum a posteriori (MAP) estimate for the probability that the coin will land heads up (0.5 = fair coin).
 
-% Considers all possible hypotheses, plots likelihood, prior, and posterior probability distributions,
-% and finds the maximum a posteriori (MAP) estimate
+% Data observations (number of heads and tails seen in a single coin-flipping session, described by Nh and Nt), 
+% priors (number of times you've seen the coin land heads and tails in the past, described by Vh and Vt), and
+% stepsize (increments by which we define our continuous hypothesis space) can all be adjusted to see how these 
+% factors are reflected in the "reasoning" of the model.
 
 clear all; clc; close all;
 
