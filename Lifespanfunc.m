@@ -1,6 +1,6 @@
 % Human's Task:
 % A person is now t years old, how many years in total (ttotal) will he/she live?
-
+ 
 % The Model's Goal:
 % Given a number t, estimate the ttotal from human prediction
  
