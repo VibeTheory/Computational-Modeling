@@ -3,7 +3,7 @@
 
 % The Model's Goal:
 % Given a number t, estimate the ttotal from human prediction
-
+ 
 function PredLifeSpan = Lifespanfunc(t)
 
 % ************************************************************************
